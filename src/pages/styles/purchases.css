@@ -1,0 +1,21 @@
+.purchase_card{
+    width: 90%;
+    height: 110px;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: .5rem;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr 1fr 1fr;
+    align-items: center;
+    text-align: center;
+    border-bottom: 1px solid rgb(102, 194, 220);
+}
+.purchase_card img{
+    max-width: 90px;
+    max-height: 90px;
+    display: block;
+    margin: 0 auto;
+}
+.purchase_card:hover{
+    cursor: pointer;
+}

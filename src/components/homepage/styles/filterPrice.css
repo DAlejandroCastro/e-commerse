@@ -1,0 +1,53 @@
+.filterprice_form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 200px;  /* Ajustado el ancho */
+}
+
+.filterprice_title {
+    font-size: 18px;  /* Ajustado el tamaño de la fuente */
+    color: #e74c3c;
+    margin-bottom: 10px;
+}
+
+.filterprice_group {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.filterprice_label {
+    font-size: 14px;  /* Ajustado el tamaño de la fuente */
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.filterprice_input {
+    padding: 6px;  /* Ajustado el padding */
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;  /* Ajustado el tamaño de la fuente */
+    width: 100%;
+}
+
+.filterprice_button {
+    padding: 8px 16px;  /* Ajustado el padding */
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;  /* Ajustado el tamaño de la fuente */
+}
+
+.filterprice_button:hover {
+    background-color: #c0392b;
+}

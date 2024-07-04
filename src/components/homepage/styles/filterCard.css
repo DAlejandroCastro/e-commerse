@@ -1,0 +1,31 @@
+.filtercat {
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.filtercat_title {
+    font-size: 20px;
+    color: #e74c3c;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.filtercat_select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #f3f3f4;
+    color: #333;
+}
+
+.filtercat_select:focus {
+    border-color: #e74c3c;
+    outline: none;
+    box-shadow: 0 0 5px rgba(231, 76, 60, 0.5);
+}
+
